@@ -2,7 +2,7 @@
 
 > This project is a clone of a portifolio website provided by microverse in the Figma community! This is a activity for sharpening HTML/CSS skills :smile
 
-![screenshot](\img\screenshots\mobile_first_project.png)
+![screenshot](https://raw.githubusercontent.com/nelsinofrancisco/microverse_portifolio/mobile_header_headline/img/screenshots/mobile_first_project.png)
 
 ## Built With
 
