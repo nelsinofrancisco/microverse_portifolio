@@ -4,3 +4,11 @@ node_modules/
 # ignore vscode configs
 .vscode
 
+# ignore hint-report
+hint-report/
+
+#ignore gulp-file
+gulpfile.js
+
+#ignore lighthouseci
+.lighthouseci
