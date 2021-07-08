@@ -1,0 +1,181 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+/* Toolbar Container */
+.toolbar-container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  justify-content: space-between;
+}
+
+.toolbar.logo{
+  margin-left: 24px;
+  width: 90px;
+  height: 28px;
+}
+
+.toolbar.menu {
+  margin-right: 32px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #28352F;
+}
+
+.logo-text {
+  margin: 0;
+  position: static;
+  left: 12px;
+  top: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+.menu-trigram {
+  background: url("\\img\\Normal Button\\Tertiary\\Icons\\Icon - Menu.png");
+  height: 18px;
+  width: 18px;
+  margin: 2px;
+}
+
+.menu-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  color: transparent;
+}
+
+/* headline section */
+.headline-container {
+  background: url("/img\\header-illsutration-mobile@2x.png") 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 92px;
+  padding-bottom: 42px;
+}
+
+.headline.primary-text {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 64px 24px 0 24px;
+}
+
+.text {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.text.first-color {
+  color: #172B4D;
+}
+
+.text.second-color {
+  color: #36B37E;
+}
+
+.headline.supporting-text {
+  display: inline-flex;
+  margin: 58px 24px 58px 24px;
+}
+
+.sup-text-paragraph {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.headline.social-media-icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter {
+  background: url("\\img\\headline\\icons\\twitter.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 20px;
+  margin: 0 8px 0 8px;
+}
+
+.linkedin {
+  background: url("\\img\\headline\\icons\\linkedin.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 20px;
+  margin: 0 8px 0 8px;
+}
+
+.medium {
+  background: url("\\img\\headline\\icons\\medium.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 16px;
+  margin: 0 8px 0 8px;
+}
+
+.github {
+  background: url("\\img\\headline\\icons\\github.png");
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 20px;
+  margin: 0 8px 0 8px;
+}
+
+.angellist {
+  background: url("\\img\\headline\\icons\\angellist.png");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 20px;
+  margin: 0 8px 0 8px;
+}
+
+.headline.action {
+  display: inline-flex;
+  margin-top: 62px;
+  justify-content: center;
+}
+
+.action-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #DFE1E6;
+  background-color: transparent;
+}
+
+.chevron {
+  background: url("\\img\\Normal Button\\Secondary\\Icons\\chevron.png") 50% 50%;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  
+}
