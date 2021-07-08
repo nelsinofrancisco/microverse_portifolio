@@ -9,3 +9,6 @@ hint-report/
 
 #ignore lighthouseci
 .lighthouseci
+
+#ignore stylint 
+.stylelintrc.json
