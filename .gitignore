@@ -7,8 +7,5 @@ node_modules/
 # ignore hint-report
 hint-report/
 
-#ignore gulp-file
-gulpfile.js
-
 #ignore lighthouseci
 .lighthouseci
