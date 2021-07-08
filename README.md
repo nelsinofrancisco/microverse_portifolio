@@ -9,11 +9,6 @@
 - HTML
 - CSS
 
-## Live Demo
-
-[Live Demo Link](https://nelsinofrancisco.github.io/microverse_portifolio/)
-
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
