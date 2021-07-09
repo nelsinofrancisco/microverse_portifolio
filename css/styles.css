@@ -5,6 +5,30 @@ body {
   background-color: #fff;
 }
 
+/* Custom Font */
+
+.default-custom-font {
+  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.primary-text-custom-font {
+  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+}
+
 /* Toolbar Container */
 .toolbar-container {
   display: flex;
@@ -35,11 +59,7 @@ body {
   position: static;
   left: 12px;
   top: 10px;
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
 }
 
 .menu-trigram {
@@ -75,22 +95,11 @@ body {
   margin: 64px 24px 0 24px;
 }
 
-.text {
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: center;
-  margin: 0;
-}
-
-.text.first-color {
+.primary-text.first-color {
   color: #172b4d;
 }
 
-.text.second-color {
+.primary-text.second-color {
   color: #36b37e;
 }
 
@@ -100,20 +109,25 @@ body {
 }
 
 .sup-text-paragraph {
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0;
-  text-align: center;
-  margin: 0;
+  color: #172b4d;
 }
 
 .headline.social-media-icons {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  min-width: 21px;
+  min-height: 20px;
 }
 
 .twitter {
@@ -122,6 +136,7 @@ body {
   width: 21px;
   height: 20px;
   margin: 0 8px 0 8px;
+  z-index: 1;
 }
 
 .linkedin {
