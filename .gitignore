@@ -1,0 +1,14 @@
+# .gitignore
+node_modules/
+
+# ignore vscode configs
+.vscode
+
+# ignore hint-report
+hint-report/
+
+#ignore lighthouseci
+.lighthouseci
+
+#ignore stylint 
+.stylelintrc.json
