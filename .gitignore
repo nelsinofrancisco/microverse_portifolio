@@ -12,3 +12,6 @@ hint-report/
 
 #ignore stylint 
 .stylelintrc.json
+
+#ignore hintrc
+.hintrc
