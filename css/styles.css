@@ -1,8 +1,28 @@
 html,
 body {
+  background-color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Defauls Configs */
+* {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align-center {
+  align-items: center;
 }
 
 /* Custom Font */
@@ -14,7 +34,6 @@ body {
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  margin: 0;
 }
 
 .primary-text-custom-font {
@@ -25,8 +44,6 @@ body {
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .project-title-custom-font {
@@ -38,8 +55,6 @@ body {
   line-height: 32px;
   letter-spacing: 0;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 /* Custom Button */
@@ -60,7 +75,6 @@ body {
 
 /* Toolbar Container */
 .toolbar-container {
-  display: flex;
   position: absolute;
   left: 0;
   right: 0;
@@ -84,7 +98,6 @@ body {
 }
 
 .logo-text {
-  margin: 0;
   position: static;
   left: 12px;
   top: 10px;
@@ -92,7 +105,7 @@ body {
 }
 
 .menu-trigram {
-  background: url("\\img\\Normal Button\\Tertiary\\Icons\\Icon - Menu.png");
+  background: url("/img/Normal Button/Tertiary/Icons/Icon - Menu.png") no-repeat;
   height: 18px;
   width: 18px;
   margin: 2px;
@@ -107,18 +120,13 @@ body {
 
 /* headline section */
 .headline-container {
-  background: url("/img\\header-illsutration-mobile@2x.png") 50% 0%;
+  background: url("/img/header-illsutration-mobile@2x.png") 50% 0% no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
   margin-top: 92px;
   padding-bottom: 42px;
 }
 
 .headline.primary-text {
-  display: inline-flex;
-  flex-direction: column;
   margin: 64px 24px 0 24px;
 }
 
@@ -142,60 +150,42 @@ body {
 .headline.social-media-icons {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
 li {
-  margin: 0;
-  padding: 0;
-  display: flex;
   align-items: center;
   list-style: none;
   min-width: 21px;
   min-height: 20px;
 }
 
+.headline-item {
+  margin: 0 8px 0 8px;
+}
+
 .twitter {
-  background: url("\\img\\headline\\icons\\twitter.png");
-  background-repeat: no-repeat;
   width: 21px;
   height: 20px;
-  margin: 0 8px 0 8px;
-  z-index: 1;
 }
 
 .linkedin {
-  background: url("\\img\\headline\\icons\\linkedin.png");
-  background-repeat: no-repeat;
   width: 21px;
   height: 20px;
-  margin: 0 8px 0 8px;
 }
 
 .medium {
-  background: url("\\img\\headline\\icons\\medium.png");
-  background-repeat: no-repeat;
   width: 21px;
   height: 16px;
-  margin: 0 8px 0 8px;
 }
 
 .github {
-  background: url("\\img\\headline\\icons\\github.png");
-  background-repeat: no-repeat;
   width: 19px;
   height: 20px;
-  margin: 0 8px 0 8px;
 }
 
 .angellist {
-  background: url("\\img\\headline\\icons\\angellist.png");
-  background-repeat: no-repeat;
   width: 15px;
   height: 20px;
-  margin: 0 8px 0 8px;
 }
 
 .headline.action {
@@ -213,28 +203,19 @@ li {
 }
 
 .chevron {
-  background: url("\\img\\Normal Button\\Secondary\\Icons\\chevron.png") 50% 50%;
-  background-repeat: no-repeat;
-  margin: 0;
+  background: url("/img/Normal Button/Secondary/Icons/chevron.png") 50% 50% no-repeat;
   width: 40px;
   height: 40px;
 }
 
 /* Recent Works */
 .recent-works-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  margin: 0;
 }
 
 /* Recents Works Intro-Header */
 .recent-works.intro-header {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   width: 327px;
   height: 125px;
   top: -20px;
@@ -261,7 +242,6 @@ li {
 }
 
 .card-work {
-  display: flex;
   align-items: flex-end;
   justify-content: center;
   min-height: 474px;
@@ -272,9 +252,6 @@ li {
 }
 
 .card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
@@ -286,12 +263,10 @@ li {
 }
 
 .card-tags {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: calc(100% - 22px);
   list-style: none;
-  padding: 0;
 }
 
 .card-tag {
@@ -321,15 +296,8 @@ li {
 }
 
 /* ABOUT ME SECTION */
-.about-me-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .about-me.header {
-  display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
 }
@@ -343,9 +311,6 @@ li {
 }
 
 .about-me.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-top: 40px;
 }
 
@@ -354,7 +319,6 @@ li {
 }
 
 .about-sup-text.sup-text-paragraph {
-  margin: 0;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -365,8 +329,6 @@ li {
 }
 
 .about-me.btn {
-  display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
 }
@@ -380,17 +342,12 @@ li {
 
 /* ABOUT ME LANGUAGES/FRAMEWORK/SKILLS */
 .about-list {
-  display: flex;
-  flex-direction: column;
   align-content: center;
   margin: 60px 0;
   margin-top: 46px;
-  padding: 0;
 }
 
 .about-list-item {
-  display: flex;
-  flex-direction: column;
   align-content: center;
   list-style: none;
   margin-bottom: 24px;
@@ -429,12 +386,10 @@ li {
 }
 
 .about-tags {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: calc(100% - 22px);
   list-style: none;
-  padding: 0;
   margin-top: 24px;
 }
 
