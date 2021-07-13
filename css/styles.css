@@ -403,3 +403,29 @@ li {
 }
 
 /* Contact form */ 
+.default-input-style,
+.default-textarea-style {
+  width: 87%;
+  margin-bottom: 1rem;
+  padding: .8rem .5rem;
+  border: 1px solid #D0D9D4;
+}
+.legend-font {
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.form-links-icon {
+  margin-top: 5rem;
+}
+
+.default-textarea-style {
+  height: 6rem;
+  border: 1px solid #60C095;
+}
+.contact-email {
+  color: #333;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
