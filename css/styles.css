@@ -402,30 +402,50 @@ li {
   margin: 4px 4px;
 }
 
-/* Contact form */ 
+/* Contact form */
 .default-input-style,
 .default-textarea-style {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
   width: 87%;
   margin-bottom: 1rem;
-  padding: .8rem .5rem;
-  border: 1px solid #D0D9D4;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
 }
+
+.default-textarea-style {
+  height: 6rem;
+  border: 1px solid #60c095;
+}
+
+.default-input-style,
+.default-input-style::placeholder {
+  color: #6b778c;
+}
+
+.default-textarea-style,
+.default-textarea-style::placeholder {
+  color: #091e42;
+}
+
 .legend-font {
   margin-bottom: 3rem;
   padding: 1rem;
+  color: #172b4d;
 }
 
 .form-links-icon {
   margin-top: 5rem;
 }
 
-.default-textarea-style {
-  height: 6rem;
-  border: 1px solid #60C095;
-}
 .contact-email {
-  color: #333;
+  color: #42526e;
   text-decoration: none;
   padding: 1rem;
-  font-size: 1rem;
+  height: 157px;
+  margin-bottom: 147px;
+  font-size: 20px;
+  line-height: 2rem;
 }
