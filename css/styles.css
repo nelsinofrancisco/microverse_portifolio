@@ -464,7 +464,7 @@ li {
 }
 
 /* RESIZING FOR DESKTOP VERSION */
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 1100px) {
   /* Disabled Elements */
 
   /* Header Section */
@@ -519,7 +519,7 @@ li {
     background-repeat: no-repeat;
     background-position: 50% -10%;
     margin-top: 0;
-    height: 85vh;
+    min-height: 1036px;
   }
 
   .headline.primary-text.flex-container-column {
@@ -558,7 +558,8 @@ li {
   /* Display Work section */
   .card-work-container {
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-    width: 1200px;
+    width: 81vw;
+    max-width: 1200px;
     justify-items: center;
   }
 
@@ -583,7 +584,8 @@ li {
 
   .about-list.flex-container-column {
     flex-direction: row;
-    width: 1200px;
+    width: 81vw;
+    max-width: 1200px;
     justify-content: space-around;
     margin-top: 28px;
     margin-bottom: 144px;
@@ -610,7 +612,8 @@ li {
   /* Contact Section */
   .section-contact-container {
     position: relative;
-    width: 1200px;
+    width: 81vw;
+    max-width: 1200px;
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
@@ -622,15 +625,18 @@ li {
   .legend-font-desktop {
     display: flex;
     color: #172b4d;
-    width: 500px;
+    max-width: 500px;
+    flex: 1.8;
     height: 256px;
     font-weight: bold;
     font-size: 30px;
     line-height: 52px;
+    margin-right: 20px;
   }
 
   .form-container {
-    width: 684px;
+    max-width: 684px;
+    flex: 2;
     align-items: flex-start;
   }
 
