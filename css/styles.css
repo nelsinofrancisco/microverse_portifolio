@@ -27,7 +27,12 @@ body {
 
 /* Custom Font */
 .default-custom-font {
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+  font-family:
+    Inter,
+    Georgia,
+    "Times New Roman",
+    Times,
+    serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +42,12 @@ body {
 }
 
 .primary-text-custom-font {
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+  font-family:
+    Inter,
+    Georgia,
+    "Times New Roman",
+    Times,
+    serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -48,7 +58,12 @@ body {
 
 .project-title-custom-font {
   color: #3a4a42;
-  font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+  font-family:
+    Inter,
+    Georgia,
+    "Times New Roman",
+    Times,
+    serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -119,7 +134,9 @@ body {
 }
 
 .menu-trigram {
-  background: url("/img/Normal Button/Tertiary/Icons/Icon - Menu.png") no-repeat;
+  background:
+    url("/img/Normal Button/Tertiary/Icons/Icon - Menu.png")
+    no-repeat;
   height: 18px;
   width: 18px;
   margin: 2px;
@@ -134,7 +151,9 @@ body {
 
 /* headline section */
 .headline-container {
-  background: url("/img/header-illsutration-mobile@2x.png") 50% 0% no-repeat;
+  background:
+    url("/img/header-illsutration-mobile@2x.png")
+    50% 0% no-repeat;
   background-size: cover;
   margin-top: 92px;
   padding-bottom: 42px;
@@ -217,7 +236,9 @@ li {
 }
 
 .chevron {
-  background: url("/img/Normal Button/Secondary/Icons/chevron.png") 50% 50% no-repeat;
+  background:
+    url("/img/Normal Button/Secondary/Icons/chevron.png")
+    50% 50% no-repeat;
   width: 40px;
   height: 40px;
 }
@@ -512,6 +533,16 @@ li {
     color: #344563;
   }
 
+  .toolbar-menu-desktop li {
+    transition: all ease-in-out 0.5s;
+  }
+
+  .toolbar-menu-desktop li:hover {
+    font-size: 25px;
+    border-bottom: 2px solid green;
+    transform: translateY(50%);
+  }
+
   /* Headline Section */
   .headline-container {
     background: url("/img/header-llustration-desktop@2x.png");
@@ -653,17 +684,26 @@ li {
   }
 
   .form-desktop-img.third-img {
-    left: calc((1200px - 223px) + ((100vw - 1200px) / 2));
+    left:
+      calc(
+        (1200px - 223px) + ((100vw - 1200px) / 2)
+      );
     bottom: -50%;
   }
 
   .form-desktop-img.second-img {
-    right: calc((1200px - 408px) + ((100vw - 1200px) / 2));
+    right:
+      calc(
+        (1200px - 408px) + ((100vw - 1200px) / 2)
+      );
     bottom: -30%;
   }
 
   .form-desktop-img.first-img {
-    right: calc((1200px - 194px) + ((100vw - 1200px) / 2));
+    right:
+      calc(
+        (1200px - 194px) + ((100vw - 1200px) / 2)
+      );
     bottom: -50%;
   }
 
@@ -680,5 +720,36 @@ li {
   .desktop-footer-list {
     margin-top: 25px;
     border-top: 1px;
+  }
+
+  .about-list-item:hover,
+  .card-work:hover {
+    animation: shake 3s ease-in-out;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: translateX(-30%);
+    }
+
+    20% {
+      transform: translateX(25%);
+    }
+
+    40% {
+      transform: translateX(-20%);
+    }
+
+    60% {
+      transform: translateX(15%);
+    }
+
+    80% {
+      transform: translateX(-10%);
+    }
+
+    100% {
+      transform: translateX(5%);
+    }
   }
 }
