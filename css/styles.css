@@ -135,7 +135,7 @@ body {
 
 .menu-trigram {
   background:
-    url("./img/normal_button/tertiary/ham_menu_1x")
+    url(./img/normal_button/tertiary/ham_menu_1x)
     no-repeat;
   height: 18px;
   width: 18px;
@@ -152,7 +152,7 @@ body {
 /* headline section */
 .headline-container {
   background:
-    url("./img/header-illsutration-mobile@2x.png")
+    url(./img/header-illsutration-mobile@2x.png)
     50% 0% no-repeat;
   background-size: cover;
   margin-top: 92px;
@@ -237,7 +237,7 @@ li {
 
 .chevron {
   background:
-    url("./img/normal_button/secondary/icons/chevron.png")
+    url(./img/normal_button/secondary/icons/chevron.png)
     50% 50% no-repeat;
   width: 40px;
   height: 40px;
@@ -545,7 +545,7 @@ li {
 
   /* Headline Section */
   .headline-container {
-    background: url("./img/header-llustration-desktop@2x.png");
+    background: url(./img/header-llustration-desktop@2x.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% -10%;
