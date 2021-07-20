@@ -517,9 +517,8 @@ li {
   }
 
   .toolbar-menu-desktop li:hover {
-    font-size: 25px;
     border-bottom: 2px solid green;
-    transform: translateY(50%);
+    transform: translateY(10%);
   }
 
   /* Headline Section */
@@ -694,32 +693,8 @@ li {
 
   .about-list-item:hover,
   .card-work:hover {
-    animation: shake 3s ease-in-out;
+    transform: scale(1.02);
+    transition: all 0.2s ease-out;
   }
 
-  @keyframes shake {
-    0% {
-      transform: translateX(-30%);
-    }
-
-    20% {
-      transform: translateX(25%);
-    }
-
-    40% {
-      transform: translateX(-20%);
-    }
-
-    60% {
-      transform: translateX(15%);
-    }
-
-    80% {
-      transform: translateX(-10%);
-    }
-
-    100% {
-      transform: translateX(5%);
-    }
-  }
 }
