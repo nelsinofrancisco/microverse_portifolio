@@ -2,13 +2,14 @@
 
 > This project is a clone of a portifolio website provided by microverse in the Figma community! This is a activity for sharpening HTML/CSS skills :smile
 
-![screenshot](https://raw.githubusercontent.com/nelsinofrancisco/microverse_portifolio/development_works_aboutme/img/screenshots/mobile_first_project.png)
-![screenshot](https://raw.githubusercontent.com/nelsinofrancisco/microverse_portifolio/development_works_aboutme/img/screenshots/mobile_second_project.png)
-
 ## Built With
 
 - HTML
 - CSS
+
+## Live Preview
+
+[live demo](https://nelsinofrancisco.github.io/microverse_portifolio/)
 
 ## Getting Started
 
