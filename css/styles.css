@@ -110,7 +110,7 @@ body {
 }
 
 .close-img {
-  color: #67798E;
+  color: #67798e;
 }
 
 .expanded-menu-list {
@@ -126,12 +126,11 @@ body {
   text-align: left;
   margin-bottom: 40px;
   margin-left: 24px;
-  align-items: left;
 }
 
 .expanded-menu-item a {
   text-decoration: none;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 /* Toolbar Container */
@@ -515,7 +514,7 @@ li {
   /* Disabled Elements */
 
   /* Enabled Elements */
-  
+
   /* Header Section */
   .toolbar.logo,
   .menu-trigram {
