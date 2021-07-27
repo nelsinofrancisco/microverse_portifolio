@@ -27,7 +27,7 @@ body {
 
 /* Custom Font */
 .default-custom-font {
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +37,7 @@ body {
 }
 
 .primary-text-custom-font {
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -48,7 +48,7 @@ body {
 
 .project-title-custom-font {
   color: #3a4a42;
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
