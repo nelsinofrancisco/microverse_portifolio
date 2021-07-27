@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 html,
 body {
   background-color: #fff;
@@ -27,7 +29,7 @@ body {
 
 /* Custom Font */
 .default-custom-font {
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +39,7 @@ body {
 }
 
 .primary-text-custom-font {
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -48,7 +50,7 @@ body {
 
 .project-title-custom-font {
   color: #3a4a42;
-  font-family: Inter, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Inter', Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -58,15 +60,12 @@ body {
 }
 
 /* Disabled Elements */
-.toolbar-menu-desktop,
-.legend-font-desktop,
-.contact-email,
-.desktop-footer,
-.contact-name-desktop,
-.form-desktop-img,
-.bottom-img-desk,
-.top-img-desk {
+.disabled {
   display: none;
+}
+
+.no-overflow-y {
+  overflow-y: hidden;
 }
 
 /* Custom Button */
@@ -85,6 +84,55 @@ body {
 
 .custom-button:active {
   background-color: #008552;
+}
+
+/* Menu Expanded */
+
+.mobile-expanded-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+  z-index: 1;
+}
+
+.expanded-nav {
+  background-color: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: flex-start;
+}
+
+.close-btn {
+  position: absolute;
+  top: 50px;
+  right: 34px;
+}
+
+.close-img {
+  color: #67798e;
+}
+
+.expanded-menu-list {
+  list-style: none;
+  padding-top: 108px;
+  width: 100%;
+  height: 80vh;
+}
+
+.expanded-menu-item {
+  font-size: 32px;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 24px;
+}
+
+.expanded-menu-item a {
+  text-decoration: none;
+  color: #3a4a42;
 }
 
 /* Toolbar Container */
@@ -318,11 +366,11 @@ li {
   position: relative;
 }
 
-.about-me-text.top-img {
+.about-me-text.top-img-mob {
   position: absolute;
   max-height: 108px;
   max-width: 119px;
-  right: -100px;
+  left: calc((100vw + 60px) / 2);
   top: -40px;
 }
 
@@ -349,11 +397,11 @@ li {
   position: relative;
 }
 
-.about-me-text.bottom-img {
+.about-me-text.bottom-img-mob {
   position: absolute;
   max-height: 56.99px;
   max-width: 127px;
-  left: -130px;
+  right: calc((100vw + 60px) / 2);
 }
 
 /* ABOUT ME LANGUAGES/FRAMEWORK/SKILLS */
@@ -466,6 +514,8 @@ li {
 /* RESIZING FOR DESKTOP VERSION */
 @media only screen and (min-width: 1100px) {
   /* Disabled Elements */
+
+  /* Enabled Elements */
 
   /* Header Section */
   .toolbar.logo,
