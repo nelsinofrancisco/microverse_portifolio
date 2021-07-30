@@ -596,6 +596,15 @@ li {
   line-height: 2rem;
 }
 
+.email-message {
+  position: relative;
+  top: -10px;
+  left: 5px;
+  color: red;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 /* RESIZING FOR DESKTOP VERSION */
 @media only screen and (min-width: 1100px) {
   /* Disabled Elements */
