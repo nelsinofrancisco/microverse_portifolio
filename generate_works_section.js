@@ -419,7 +419,7 @@ function buildCardWorkContainer(propsRules) {
   });
 
   childElements.forEach((child) => {
-    cardWorkContainer.appendChild(child);
+    cardWorkContaIner.appendChild(child);
   });
 
   return cardWorkContainer;
