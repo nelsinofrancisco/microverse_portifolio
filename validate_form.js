@@ -5,9 +5,9 @@ form.addEventListener('submit', (event) => {
   const validateRegex = /[A-Z]/;
 
   if (validateRegex.test(emailInput.value)) {
-    document.getElementById('email-message').classList.toggle('disabled');
+    document.getElementById('email_message').classList.toggle('disabled');
     event.preventDefault();
-  } else if (!document.getElementById('email-message').className === 'email-message disabled') {
-    document.getElementById('email-message').classList.toggle('disabled');
+  } else if (!document.getElementById('email_message').className === 'email-message disabled') {
+    document.getElementById('email_message').classList.toggle('disabled');
   }
 });
